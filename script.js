@@ -18,7 +18,7 @@ console.log("Hello World.");
 //  -> você precisa de uma variável que possa redeclarar ou 
 //  -> você precisa de uma variável acessível em qualquer lugar do programa (ou seja, globalmente)
 
-// Tipos de váriaveis
+// Tipos de variáveis
 
 // Strings são úteis para guardar dados que podem ser representados em forma de texto.
 let nome = "Matheus";
