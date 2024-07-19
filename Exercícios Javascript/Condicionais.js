@@ -24,7 +24,7 @@ if (numero === 2) {
 }
 
 
-let idadeAdulto = 60;
+let idadeAdulto = 17;
 
 /*if (idadeAdulto >= 18) {
     if (idadeAdulto < 60) {
@@ -39,8 +39,10 @@ let idadeAdulto = 60;
 // && (e) todas as condicionais = true --> true + true = true
 // || (ou) pelo menos uma condicional = true --> true + false = true
     
-if (idadeAdulto >= 18 && idadeAdulto < 60) {
-    console.log('Você é um adulto.')
-} else {
-    console.log('Você é um idoso.')
+if (idadeAdulto < 18) {
+    console.log("Você é uma criança.")
+} else if (idadeAdulto >= 18 && idadeAdulto < 60 ) {
+    console.log("Você é um adulto.")
+} else if (idadeAdulto > 60){
+    console.log("Você é um idoso.")
 }
