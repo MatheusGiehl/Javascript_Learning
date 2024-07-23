@@ -3,7 +3,7 @@
 let profession = 'fiscal';
 
 switch (profession) {
-    case 'fiscal' :
+    case 'fiscal' : 
         console.log('Sua roupa é verde.')
     break;
     case 'bombeiro' :
@@ -11,5 +11,8 @@ switch (profession) {
     break;
     case 'policial' :
         console.log('Sua roupa é azul.')
+    break;
+    default:
+        console.log('Sua camisa será branca.')
     break;
 }
