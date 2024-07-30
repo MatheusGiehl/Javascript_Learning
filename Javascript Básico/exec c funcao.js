@@ -42,3 +42,24 @@ let quartos = 2;
 
 let preco = calcularImovel(tamanho,quartos);
 console.log("O preço do apartamento é: " + preco)
+
+/*
+Crie uma função que valide usuário e senha.
+*/ 
+
+function validar(usuario, senha) {
+    if(usuario === 'Matheus' && senha === '1234') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+let usuario = 'Luana'
+let senha = '4321'
+let validacao = validar(usuario, senha);
+if (validacao) {
+    console.log('Acesso concebido.')
+} else {
+    console.log('Acesso negado.')
+}
